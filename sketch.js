@@ -81,7 +81,7 @@ function draw() {
   }
 monkey.collide(ground);
 ground.debug=true;
-ground.setCollider("rectangle",0,10,1000,10);
+ground.setCollider("rectangle",0,10,width,10);
   drawSprites();
 
 }
